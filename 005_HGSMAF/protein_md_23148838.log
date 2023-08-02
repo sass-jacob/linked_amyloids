@@ -1,0 +1,9 @@
+/var/spool/slurmd/job23148838/slurm_script: line 9: source: /home/gridsan/jsass/.conda/envs/openmm_env: is a directory
+Load in PDB
+set force field
+set up modeller
+add hydrogens
+add tip3p water
+minimizing
+Saving...
+Done
