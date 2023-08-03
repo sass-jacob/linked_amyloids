@@ -19,3 +19,8 @@ conda install -c conda-forge mdtraj #more trajectory analysis
 ```
 _Please note that you must also install AmberTools (latest version) locally via unpacking of tar file and installation. I have mine in a subdirectory to home called AMBER (~/AMBER/), where I unpacked within that subfolder for cpptraj and designation of AMBERHOME -> source ~/AMBER/amber22/amber.sh_
 
+Another note for analysis: I have a local installation of DSSP that I unpacked in the folder ~/DSSP/. Installation instructions can be found here: https://github.com/cmbi/hssp where they now call the package HSSP.
+
+
+**General Breakdown of Workflow**
+1. Generate linked amyloid-beta structure via alphafold (https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb#scrollTo=kOblAo-xetgx) with the main chain sequence 
