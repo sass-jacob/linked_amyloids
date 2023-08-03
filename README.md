@@ -13,5 +13,8 @@ Now, you have quite easily setup all the necessary imports to run the MD simulat
 ```bash
 conda install -c schrodinger pymol #for addition of terminal oxygen
 conda install -c ambermd pytraj #trajectory analysis
-
+conda install -c conda-forge pdbfixer #some pdb manipulation
+conda install -c conda-forge biopython #for Bio.PDB
+conda install -c conda-forge mdtraj #more trajectory analysis
 ```
+^^Please note that you must also install AmberTools (latest version) locally via unpacking of tar file and installation. I have mine in a subdirectory to home called AMBER, where I unpacked within that subfolder for cpptraj and designation of AMBERHOME^^
