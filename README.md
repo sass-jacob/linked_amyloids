@@ -23,4 +23,4 @@ Another note for analysis: I have a local installation of DSSP that I unpacked i
 
 
 **General Breakdown of Workflow**
-1. Generate linked amyloid-beta structure via alphafold (https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb#scrollTo=kOblAo-xetgx) with the main chain sequence 
+1. Generate linked amyloid-beta structure via alphafold (https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb#scrollTo=kOblAo-xetgx) with the main chain sequence of 2beg.pdb (DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA) and linker length 6 for total of 234 residues ([main]-[link]-[main]-[link]-[main]-[link]-[main]-[link]-[main])
